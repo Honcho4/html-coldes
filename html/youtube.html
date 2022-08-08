@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube clone</title>
+    <style>
+    body{
+        margin: 0;
+        padding-bottom: 2000px;
+    }
+        .header-container{
+            position: fixed;
+            z-index: 100;
+            background-color: #f8f8f8;
+            right: 0;
+            left: 0;
+        }
+        .nav
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            flex-shrink: 0;
+        }
+        .logo
+        {
+            display: flex;
+            cursor: pointer;
+            height: 20px;
+        }
+        .ham
+        {
+            margin-right: 1rem;
+        }
+       .search
+       {
+        display: flex;
+        justify-content:  space-between;
+       }
+       .search-bar
+       {
+        
+        width: 500px;
+       }
+       .serchbutt{
+        height:33px;
+        cursor: pointer;
+       }
+       .side-menu{
+        cursor: pointer;
+        display: flex;
+       }
+       .video{
+        padding-right:40px;
+       }
+       .m{
+        border-radius: 40px;
+       }
+       .task{
+            color: white;
+            display: flex;
+            flex-direction: row;
+            font-weight: bold;
+            justify-content: space-between;
+          }
+          .tsk{
+            padding: 5px;
+            border: none;
+            margin-top: 3px;
+            border-radius: 25px;
+          }
+        
+         
+          
+    </style>
+    <title>Document</title>
+</head>
+<body>
+   <div class="header-container">
+     <header class="nav">
+ <div class="logo">
+<img class="ham" src="images/hamburger.png" alt="" style="height:27px;">
+            <img class="yt" src="images/yt.jpg" alt="" style="height:27px;">
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search" class="search-bar" style="height:27px;">
+            <button class="serchbutt"><img src="images/loupe.png" alt=""></button>
+            <img src="images/microphone.png" class="serchbutt" alt="" style="height:30px;">
+        </div>
+        <div class="side-menu">
+            <img class="video" src="images/switch_video.svg" alt="" style="height:30px;">
+            <img class="video" src="images/three dots.svg" alt="" style="height:30px;">
+<img class="video" src="images/bell notification.svg" alt="" style="height:30px;">
+<img class="m" src="https://yt3.ggpht.com/yti/APfAmoGNDo15V8GOiprl3QZKghvKt7kqNAdW-D3dtA=s88-c-k-c0x00ffffff-no-rj-mo" alt="" style="height:30px">
+   </div>
+     </header>
+
+      <hr>
+        <div class="task">
+          <button class="tsk">All</button>
+          <button class="tsk">Home</button>
+          <button class="tsk">Gaming</button>
+          <button class="tsk">Music</button>
+          <button class="tsk">Scene</button>
+          <button class="tsk">Nollywood</button>
+          <button class="tsk">HTML</button>
+          <button class="tsk">Thrillers</button>
+          <button class="tsk">Wildlife</button>
+          <button class="tsk">SuperHero Movies</button>
+          <button class="tsk">Live</button>
+          <button class="tsk">Humans</button>
+          <button class="tsk">Comedy</button>
+          <button class="tsk">Disaster</button>
+          <button class="tsk">Crypto</button>
+          <button class="tsk">Phones</button>
+          <button class="tsk">Sports</button>
+          <button class="tsk">Clothes</button>
+          <button class="tsk">Sports</button>
+        </div>
+     <hr>
+   </div>
+
+</body>
+</html>

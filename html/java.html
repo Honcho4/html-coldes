@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java</title>
+    
+</head>
+<body class="body">
+    <h1>Java Script</h1>
+
+    <script>
+        function change(){
+    let element = document.getElementsByClassName("para");
+     let x;
+  
+   for(let x = 0; x<element.length; x++){
+     element[x].style.color="red";
+     
+   } 
+}
+function underline(){
+    let element = document.getElementsByClassName("para");
+     let x;
+  
+   for(let x = 0; x<element.length; x++){
+     element[x].style.textDecoration = "underline";
+     
+   } 
+}
+    </script>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+    <h1>My Name is Anthony</h1>
+
+    <p class="para">This is me</p>
+    <p class="para">This is me</p>
+    <p class="para">This is me</p>
+    <p class="para">This is me</p>
+    <p class="para">This is me</p>
+     <button onclick="change()">smooch</button>
+     <button onclick="underline()">smooch</button>
+     <input type="checkbox" name="dark" onclick = "darkmode()" id="">
+
+
+
+
+
+     <p id="p1">Hello world</p>
+     
+
+
+     <p id="Date"><button onclick="ding()">press</button></p>
+
+
+     
+     <form name="myForm" onsubmit="return validateForm()" method="post">
+       Name: <input type="text" name="fname">
+       <input type="submit" value="Submit">    
+    </form>
+     
+
+ <input type="checkbox" name="dark" onclick = "darkmode()" id="">
+    <script src="JavaScript files/java.js"></script>
+</body>
+</html>

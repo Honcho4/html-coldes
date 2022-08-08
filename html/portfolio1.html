@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hon_cho</title>
+    <style>
+        body{
+        margin: 0;
+        padding-bottom: 100px;
+        background-color: black;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      .logo{
+         margin-bottom: 15px;
+         display: flex; 
+         position: fixed;
+         font-family: Arial, Helvetica, sans-serif;
+      }
+          .task{
+            background-color: rgb(40, 35, 35);
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            position: fixed;
+            z-index: 100;
+            right: 0;
+            left: 0;
+          }
+          .logo{
+             color: white;
+             font-size: 35px;
+             letter-spacing: 1px;
+             cursor: pointer;
+             display: flex;
+          }
+          span{
+            color:#f90040;
+          }
+          .tsk{
+            background-color:#f9004d ;
+            border-color: #f9004d;
+            color: white;
+            padding: 9px;
+            font-weight: bold;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            transition: transform .4s;
+          }
+          .tsk:hover{
+            background-color: #f5e0e8;
+            border-color: #f5e0e8;
+            color: black;
+            transform: scale(1);
+          }
+          .hero{
+            background-position: center center;
+            margin-top: 128px;
+            margin-left: 600px;
+          }
+          .content{
+            position: absolute;
+            top: 50%;
+            left: 8%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            transform: translateY(-50%)
+          }
+          h1{
+            color: white;
+            margin: 20px 0px 20px;
+            font-size: 64px;
+          }
+          h3{
+            color: white;
+            font-size: 25px;
+            margin-bottom: 50px;
+          }
+          h4{
+            color: #fcfc;
+            letter-spacing: 2px;
+            font-size: 20px;
+          }
+          .newsletter form{
+            width: 380px;
+            max-width: 100%;
+            position: relative;
+          }
+          .newsletter form input:first-child{
+            display: inline-block;
+            width: 100%;
+            padding: 14px  14px 15px;
+            border: 2px solid #f9004d;
+            outline: none;
+            border-radius: 30px;
+          }
+          .newsletter form input:last-child{
+            position: absolute;
+            display: inline-block;
+            outline: none;
+            border: none;
+            padding: 10px 30px;
+            border-radius: 30px;
+            background-color: #f9004d;
+            color: white;
+            box-shadow: 0px 0px 5px #000 0px 0px 15px #858585;
+            top: 6px;
+            left: 290px;
+            cursor: pointer;
+          }
+            
+          .about{
+            display: flex;
+            width: 100%;
+            padding: 100px 0px;
+            background-color: #191919;
+            font-family: 'Courier New', Courier, monospace;
+          }
+          .about img{
+            height: auto;
+            width: 430px;
+          }
+          .about-text{
+            width: 550px;
+          }
+          .main{
+            width: 1130px;
+            max-width: 95%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+          }
+          .about-text h2{
+            color: white;
+            font-size: 75px;
+            text-transform: Capitalize;
+            margin-top: 20px;
+          }
+          .about-text h5{
+            color: white;
+            letter-spacing: 2px;
+            font-size: 22px;
+            margin-bottom: 25px;
+            text-transform: capitalize;
+          }
+          .about-text p{
+            color: #fcfc;
+            letter-spacing: 1px;
+            line-height: 28px;
+            font-size: 18px;
+            margin-bottom: 45px;
+          }
+          button{
+            background-color: #f90040;
+            color: white;
+            text-decoration: none;
+            border: 2px solid transparent;
+            font-weight: bold;
+            border-radius: 30px;
+            padding: 13px 30px;
+            transition: .4s;
+            cursor: pointer;
+          }
+          button:hover{
+            background-color: transparent;
+            border: 2px solid #f90040;
+            cursor: pointer;
+          }
+
+          .services{
+            background: #101010;
+            width: 100%;
+            padding: 100px 0px;
+          }
+          .title{
+            color: white;
+            font-size: 75px;
+            width: 1130px;
+            margin: 30px auto;
+            text-align: center;
+            font-family: sans-serif;
+          }
+          .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 400px;
+          }
+          .card{
+            height: 365px;
+            width: 335px;
+            padding: 20px 35px;
+            background: #191919;
+            border-radius: 20px;
+            margin: 15px;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+          }
+          h5{
+            color: white;
+            font-size: 23px;
+            margin-bottom: 15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+          }
+          .pra p{
+            color: #fcfc;
+            font-size: 16px;
+            line-height: 27px;
+            margin-bottom: 25px;
+            font-family: 'Courier New', Courier, monospace;
+          }
+          .card .button{
+            background-color: #f90040;
+            color: white;
+            text-decoration: none;
+            border: 2px solid transparent;
+            font-weight: bold;
+            border-radius: 30px;
+            padding: 9px 22px;
+            transition: .4s;
+            cursor: pointer;
+          }
+          card,.button:hover{
+            background-color: transparent;
+            border: 2px solid #f90040;
+            cursor: pointer;
+          }
+          .contact-me{
+            width: 100%;
+            height: 290px;
+            background: #191919;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .contact-me p{
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 25px;
+          }
+          .contact-me .button-two{
+            background-color: #f90040;
+            color: white;
+            text-decoration: none;
+            border: 2px solid transparent;
+            font-weight: bold;
+            border-radius: 30px;
+            padding: 9px 22px;
+            transition: .4s;
+            cursor: pointer;
+          }
+          .contact-me .button-two:hover{
+            background-color: transparent;
+            border: 2px solid #f9004d;
+            cursor: pointer;
+          }
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="task">
+        <li class="logo";>Hon<span>cho</span></li>
+        
+        <button class="tsk">Home</button>
+        <button class="tsk">Skills</button>
+        <button class="tsk">Services</button>
+        <button class="tsk">About Me</button>
+    </div>
+         
+            <div><img src="images/porfolio1.jfif" alt="" class="hero" style="height:500px;width:920px;"></div>   
+
+    <div class="content">
+        <h4>Hello, my name is</h4>
+        <h1>Mbanisi <span>Anthony</span></h1>
+        <h3>I am a Web Developer.</h3>
+      <div class="newsletter">
+           <form>
+               <input type="email" name="email" id="mail" placeholder="Enter Your Mail">
+               <input type="submit" name="submit" value="Lets Start">
+           </form>
+      </div> 
+    </div>
+    
+      <!--About section start-->
+      <section class="about">
+        <div class="main">
+            <img src="images/Porfolio2.jpeg" alt="">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h5>Developer & <span>Designer</span></h5>
+                <p>I am a Web Developer. I can provide clean code and perfect design.
+                    and can also make the website mOre interactive. A responsive design with good UI makes your website
+                    more accessible to all users World wide. </p>
+                 <button type="button">Let's Talk</button> 
+            </div>
+        </div>
+      </section>
+
+      <!--services-->
+            <!--NOTIFICATION IMAGES FROM FONT AWESOME-->      
+      <div class="service">
+        <div class="title">
+             <h2>My Services</h2>
+        </div>
+           
+        <div class="box">
+             <div class="card">
+               <h5>Web Development</h5>
+               <div class="pra">
+                 <p>Every website should be built with two primary goals:Firstly needs to be able to work accrosed all devices
+                  as fast as possible
+                 </p>
+
+                 <p style="text-align: center;">
+                    <a class="button" href="#">Read More</a>
+                 </p>
+               </div>
+             </div>
+
+             <div class="card">
+              <h5>Graphic Design</h5>
+              <div class="pra">
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad minus aliquid vitae voluptates 
+                  nostrum ea dolorum unde error, nam nobis rem natus neque illum vero. Id sequi iusto recusandae iure.</p>
+
+                <p style="text-align: center;">
+                   <a class="button" href="#">Read More</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <h5>Data Analyst</h5>
+              <div class="pra">
+                <p>Every Data Analyst shoulud be able to produce a good analystic result for his or her client
+                 as fast as possible before the due date.
+                </p>
+
+                <p style="text-align: center;">
+                   <a class="button" href="#">Read More</a>
+                </p>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <!--Contact Bar-->
+      <div class="contact-me">
+        <p>Let Me Get You A Beautiful Website.</p>
+        <a class="button-two" href="#">Hire me</a>
+      </div>
+
+</body>
+</html>

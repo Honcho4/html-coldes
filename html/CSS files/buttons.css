@@ -1,0 +1,150 @@
+
+        .subscribe{
+            background-color: rgb(255, 13, 0);
+            color: white;
+            border: none;
+            padding: 20px;
+            font-weight: bold;
+            font-size: 24px;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: 1s;
+        }
+        .subscribe:hover{
+            background-color: rgba(255, 239, 239, 0.92);
+            color: red;
+        }
+        .point{
+            background-color: rgb(129, 47, 129);
+            color: white;
+            border: none;
+            padding: 20px;
+            font-weight: 300;
+            font-size: 24px;
+            border-radius: 14px;
+            cursor: pointer;
+        }
+        .epoint{
+            background-color: rgba(0, 128, 255, 0.913);
+            border-color: rgb(0, 136, 255);
+            margin-top: 20px;
+            color: white;
+            border-radius: 14px;
+            padding: 10px 30px 10px 30px;
+            font-size: 15px;
+            
+        }
+        .wpoint{
+            background-color: white;
+            border-color:rgb(62, 62, 238);
+            margin-top: 20px;
+            margin-left: 25px;
+            color: blue;
+            border-radius: 14px;
+            padding: 10px 30px 10px 30px;
+            font-size: 15px;
+            cursor: pointer;
+
+        }
+        .rpoint{
+            background-color: white;
+            border-color: grey;
+            margin-top: 20px;
+            margin-left: 25px;
+            color: grey;
+            border-radius: 14px;
+            padding: 10px 30px 10px 30px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .bolt{
+            background-color: rgb(47, 229, 105);
+            border: none;
+            margin-top: 30px;
+            color: white;
+            padding: 60px;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 100px;
+            cursor: pointer;
+            
+        }
+        .cart{
+            background-color:rgb(255, 216, 20);
+            border-color: rgb(255, 216, 20);
+            color: black;
+            margin-top: 20px;
+            font-size: 20px;
+            padding-right: 100px;
+            padding-left: 100px;
+            border-radius: 50px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            cursor: pointer;
+            transition: 1s;
+        }
+        .cart:hover{
+            background-color: rgb(220, 220, 146);
+            border-color: rgb(220, 220, 146);
+            color: rgba(31, 30, 30, 0.909);
+        }
+        .disc{
+            background-color: rgba(42, 128, 227, 0.916);
+            border-color: rgb(137, 43, 226, 0.548);
+            color: white;
+            font-size: 15px;
+            border-radius: 25px;
+            padding: 10px;
+            margin-left: 60px;
+        }
+        .join{
+            background-color: white;
+            border-color: rgb(21, 161, 242);
+            color: rgb(21, 161, 242);
+            margin-top: 25;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 30px;
+            padding-right: 30px;
+            font-size: 20px;
+            border-radius: 5px;
+            cursor: pointer;
+
+            transition: 1s;
+        }
+        .join:hover{
+            background-color: rgb(21, 161, 242);
+            color: white;
+        }
+        .join:active{
+            opacity: 0.7;
+        }
+        .sub{
+            background-color: rgb(255, 0, 0, 0.904);
+            border-color:rgb(255, 0, 0, 0.904) ;
+            color: white;
+            margin-left: 15px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 30px;
+            padding-right: 30px;
+            font-size: 20px;
+            cursor: pointer; 
+        }
+        .twet{
+            background-color: rgb(94, 94, 254);
+            border-color: rgb(94, 94, 254);
+            border-radius: 30px;
+            color: white;
+            margin-left: 15px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 30px;
+            padding-right: 30px;
+            font-size: 20px;
+            cursor: pointer;
+            transition: box-shadow 1s;
+        }
+        .twet:hover{
+            box-shadow: 10px 10px 10px  rgb(0, 0, 0, 0.70);
+        }

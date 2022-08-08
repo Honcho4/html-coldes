@@ -1,0 +1,21 @@
+        .body
+        {
+        background-image:url('background.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        }
+        .butt{
+            background-color: aqua;
+            color: white;
+            border-color: rgba(32, 204, 190, 0.772);
+            padding: 20px;
+            margin-left: 1330px;
+            border-radius: 20px;
+            font-size: 20px;
+            cursor: pointer;
+            padding: 10px 30px 10px 30px;
+        }
+        .marq{
+            color: aqua;
+        }

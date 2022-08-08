@@ -1,0 +1,70 @@
+
+  body{
+    margin: 0;
+  }
+   .container1{
+    background-color: rgb(8, 243, 235);
+    }
+        .primary-nav{
+           background-color: black;
+           display: flex;
+        }
+        .current{
+            background-color: aqua;
+            border-color: rgb(0, 255, 247);
+            margin-top: none;
+            margin-right: 15px;
+            border-radius: 10px;
+            padding: none;
+            font-size: 15px;
+            transition: 1s;
+        }
+        .current:hover{
+            background-color: azure;
+            border-color: azure;
+            color: black;
+        }
+        .pad{
+            margin-left: 1220px;
+            background-color: aqua;
+            border-color: rgb(0, 255, 247);
+            margin-top: none;
+            border-radius: 10px;
+            padding: none;
+            font-size: 15px;
+            transition: 1s;
+        }
+        .pad:hover{
+            background-color: azure;
+            border-color: azure;
+            color: black;
+        }
+        .pad2{
+            background-color: aqua;
+            border-color: rgb(0, 255, 247);
+            margin-top: none;
+            border-radius: 10px;
+            padding: none;
+            font-size: 15px;
+            transition: 1s;
+        }
+        .pad2:hover{
+            background-color: azure;
+            border-color: azure;
+            color: black;
+        }
+        .pad3{
+            margin-left: none;
+        }
+        .container9{
+            background-color:black;
+            color: white;
+            display: flex;
+        }
+        .container2{
+            margin-left: 1000px;
+        }
+       
+        
+        
+    

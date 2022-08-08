@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .header{
+            display: flex;
+            flex-direction: row;
+            height: 60px;
+            border: 2px solid;
+            border-color: grey;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+         <div style="background-color:lightgreen; width: 100px; margin-left: 50px;">100px</div>
+         <div style="background-color:lightcoral; width:100px;">
+              <input type="text" placeholder="search">
+        </div>
+         <div style="background-color:aqua; width:100px;">100px</div>
+    </div>
+</body>
+</html>
